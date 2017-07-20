@@ -27,11 +27,11 @@ The goals / steps of this project are the following:
 
 Based on the knowledge from the lesson, I decided to follow some steps, and then try to fine tune parameters.
 So after opening an image I followed these steps:
-1 - convert it to gray scale, in order to have a simpler starting point
-2 - reduce the amount of small details that would behave as noise for the project using a gaussian blur filter 
-3 - enhance edges from the image using a canny filter
-4 - reduce the analysis area of the image to where it really matters
-5 - use Hough transform to identify point from a same line
+1. convert it to gray scale, in order to have a simpler starting point
+2. reduce the amount of small details that would behave as noise for the project using a gaussian blur filter 
+3. enhance edges from the image using a canny filter
+4. reduce the analysis area of the image to where it really matters
+5. use Hough transform to identify point from a same line
 
 Then the results would be overlayed to the starting image to show the results of the pipeline.
 
@@ -40,7 +40,7 @@ Results: after fine tuning all the helper functions parameters, I achieved satis
 #### Part 2
 
 Once the basic detection achieved, I started researches to understand which could be the best approach to replace all those lines by a single line per lane. So to the first 5 points previously described, another point has been added:
-6 - define trend lines using the results from the Hough transform
+6. define trend lines using the results from the Hough transform
 
 As in part 1, the result would be overlayed to the starting image
 
