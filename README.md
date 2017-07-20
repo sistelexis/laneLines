@@ -40,6 +40,7 @@ Results: after fine tuning all the helper functions parameters, I achieved satis
 #### Part 2
 
 Once the basic detection achieved, I started researches to understand which could be the best approach to replace all those lines by a single line per lane. So to the first 5 points previously described, another point has been added:
+
 6. define trend lines using the results from the Hough transform
 
 As in part 1, the result would be overlayed to the starting image
