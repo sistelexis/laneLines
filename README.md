@@ -56,8 +56,9 @@ So we needed a new approach.
 
 since the secret of the success appeared to be on defining better trend lines, I concentrated my efforts on part 2.
 So I started testing several ideas:
-1 - left lane and right lane are very different in two points: one is in one half of the image and the other one in the other half, besides having slopes with oposite signals. So, all the lines that did not respect that logic, that would most likely be noise created by other details from the image that not lanes, would be removed, reducing the estimation error of the trend line.
-2 - since the movie was from a curb, using polinomial trend lines would also allow to reduce the error.
+1. left lane and right lane are very different in two points: one is in one half of the image and the other one in the other half, besides having slopes with oposite signals. So, all the lines that did not respect that logic, that would most likely be noise created by other details from the image that not lanes, would be removed, reducing the estimation error of the trend line.
+2. since the lanes are paralel to the car, extreme slopes are not possible. So small lines with impossible slopes should be cleared out of the valid line list.
+3. since the movie was from a curb, using polinomial trend lines would also allow to reduce the error.
 
 all the attempts have been a failure since on most of them, exceptions were created, and consequently the code failed.
 So another approach had to be done. Instead of cleaning noise at the end of the pipeline, why not try to get it clean on the first stages?
