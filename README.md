@@ -99,4 +99,15 @@ Polinomial trend lines might become unavoidable, as weel as other technics for n
 10. Result for advanced detection
 <img src="./results/stepByStep/A-advanced_detection.png" width="480" alt="Advanced" />
 
+### 5. Video after pipeline usage
 
+1. 1st approach part1:
+  1. [straight road video](results/1stApp_p1/solidWhiteRight.mp4)
+  2. [challenge video](results/1stApp_p1/challenge_basic.mp4)
+2. 1st approach part2:
+  1. [straight road video](results/1stApp_p2/solidWhiteRight.mp4)
+  2. [challenge video](results/1stApp_p2/challenge_advanced.mp4)
+3. 3rd approach part1:
+  1. [challenge video](results/3rdApp_p1/challenge_basic.mp4)
+4. 3rd approach part2:
+  1. [challenge video](results/3rdApp_p2/challenge_advanced.mp4)
