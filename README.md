@@ -64,7 +64,7 @@ So another approach had to be done. Instead of cleaning noise at the end of the 
 ### 3. Third approach.
 So the idea was to find something different.
 From the lesson it has been seen that the gradient provided better results than the color filtering. But on the challenge video instead of having an always sunny straight line, we had curbs, we had shadows and we also had a bridge with a different floor color.
-So based on researches, I realized that combining a color filtering with the existing steps (grayscale, blur, edge detection) would provide another step of pre-processing (or step 0) that would give good results on the noise reduction. Those results were even better converting the color code from RGB to HLS
+So based on researches, I realized that combining a color filtering with the existing steps (grayscale, blur, edge detection) would provide another step of pre-processing (or step 0) that would give good results on the noise reduction. Those results were even better converting the color code from RGB to HLS (thanks to https://github.com/naokishibuya/car-finding-lane-lines).
 
 ### 2. Potential shortcomings with the final pipeline
 
