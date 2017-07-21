@@ -12,7 +12,7 @@ The goals / steps of this project are the following:
 * Make a pipeline that finds lane lines on the road
 * Reflect on your work in a written report
 
-<img src="examples/laneLines_thirdPass.jpg" width="480" alt="Goal" />
+<img src="./examples/laneLines_thirdPass.jpg" width="480" alt="Goal" />
 
 ---
 
@@ -76,27 +76,27 @@ Polinomial trend lines might become unavoidable, as weel as other technics for n
 ### 4. final pipeline - step by step
 
 1. Starting image
-<img src="results/1-image.png" width="480" alt="Goal" />
+<img src="./results/1-image.png" width="480" alt="Image" />
 
 2. Grayscale with color mask
-<img src="results/2-grayscale_with_color_detection_mask.png" width="480" alt="Goal" />
+<img src="./results/2-grayscale_with_color_detection_mask.png" width="480" alt="Grayscale" />
 
 3. Color convertion from RGB to HLS
-<img src="results/3-HLV_convertion.png" width="480" alt="Goal" />
+<img src="./results/3-HLV_convertion.png" width="480" alt="HLS" />
 
 4. Blur image with Gaussian filter
-<img src="results/4-blur_filter.png" width="480" alt="Goal" />
+<img src="./results/4-blur_filter.png" width="480" alt="Blur" />
 
 5. Edge detection
-<img src="results/5-edge_detection.png" width="480" alt="Goal" />
+<img src="./results/5-edge_detection.png" width="480" alt="Edges" />
 
 8. Definition of the section to be analyzed
-<img src="results/8-section_filtering.png" width="480" alt="Goal" />
+<img src="./results/8-section_filtering.png" width="480" alt="Section" />
 
 9. Result for basic detection
-<img src="results/9-basic_detection.png" width="480" alt="Goal" />
+<img src="./results/9-basic_detection.png" width="480" alt="Basic" />
 
 10. Result for advanced detection
-<img src="results/A-advanced_detection.png" width="480" alt="Goal" />
+<img src="./results/A-advanced_detection.png" width="480" alt="Advanced" />
 
 
