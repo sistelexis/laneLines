@@ -43,7 +43,7 @@ Once the basic detection achieved, I started researches to understand which coul
 As in part 1, the result would be overlayed to the starting image
 
 Results: the achived results provided clean lines on each side of the road perfectly matching the position of the lane lines.
-
+ste
 To stress test the pipeline, it has been tested with the optional challenge video.
 At first, before the bridge, since the video was shot during a curb, the trend lines were kind of respecting the lane lines, although jumping quite a bit. But, as soon as the car got near the bridge, the trend lines start going crazing crossing each others like scisors.
 Obviously the pipeline had just shown its limits.
@@ -76,27 +76,27 @@ Polinomial trend lines might become unavoidable, as weel as other technics for n
 ### 4. final pipeline - step by step
 
 1. Starting image
-<img src="./results/1-image.png" width="480" alt="Image" />
+<img src="./results/stepByStep/1-image.png" width="480" alt="Image" />
 
 2. Grayscale with color mask
-<img src="./results/2-grayscale_with_color_detection_mask.png" width="480" alt="Grayscale" />
+<img src="./results/stepByStep/2-grayscale_with_color_detection_mask.png" width="480" alt="Grayscale" />
 
 3. Color convertion from RGB to HLS
-<img src="./results/3-HLV_convertion.png" width="480" alt="HLS" />
+<img src="./results/stepByStep/3-HLV_convertion.png" width="480" alt="HLS" />
 
 4. Blur image with Gaussian filter
-<img src="./results/4-blur_filter.png" width="480" alt="Blur" />
+<img src="./results/stepByStep/4-blur_filter.png" width="480" alt="Blur" />
 
 5. Edge detection
-<img src="./results/5-edge_detection.png" width="480" alt="Edges" />
+<img src="./results/stepByStep/5-edge_detection.png" width="480" alt="Edges" />
 
 8. Definition of the section to be analyzed
-<img src="./results/8-section_filtering.png" width="480" alt="Section" />
+<img src="./results/stepByStep/8-section_filtering.png" width="480" alt="Section" />
 
 9. Result for basic detection
-<img src="./results/9-basic_detection.png" width="480" alt="Basic" />
+<img src="./results/stepByStep/9-basic_detection.png" width="480" alt="Basic" />
 
 10. Result for advanced detection
-<img src="./results/A-advanced_detection.png" width="480" alt="Advanced" />
+<img src="./results/stepByStep/A-advanced_detection.png" width="480" alt="Advanced" />
 
 
