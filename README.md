@@ -57,6 +57,7 @@ So I started testing several ideas:
 2. since the lanes are paralel to the car, extreme slopes are not possible. So small lines with impossible slopes should be cleared out of the valid line list.
 3. since the movie was from a curb, using polinomial trend lines would also allow to reduce the error.
 
+
 all the attempts have been a failure since on most of them, exceptions were created, and consequently the code failed.
 So another approach had to be done. Instead of cleaning noise at the end of the pipeline, why not try to get it clean on the first stages?
 
@@ -111,3 +112,8 @@ Polinomial trend lines might become unavoidable, as weel as other technics for n
     1. [challenge video](results/3rdApp_p1/challenge_basic.mp4)
 4. 3rd approach part2:
     1. [challenge video](results/3rdApp_p2/challenge_advanced.mp4)
+    
+### 6. Code
+
+All the used code is available in this [iPython project](P1_roadLanLines_JorgeCarneiro.ipynb).
+
